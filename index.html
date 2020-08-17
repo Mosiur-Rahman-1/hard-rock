@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Hard Rock Solution - Song Lyric App</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- Custom css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar  navbar-dark my-3">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="Hard Rock Solution">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="images/toggler-icon.svg" alt="">
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            <a class="dropdown-item" href="#">Action 1</a>
+                            <a class="dropdown-item" href="#">Action 2</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Header section start-->
+        <main class="content-area">
+            <div class="search-bar col-md-6 mx-auto">
+                <h1 class="text-center">Lyrics Search</h1>
+                <div class="search-box my-5">
+                    <input id = "lyrics-search-box" type="text" class="form-control" placeholder="Enter your artist song name">
+                    <button id = "search-btn" class="btn btn-success search-btn">Search</button>
+                </div>
+            </div>
+        </div>
+        <!-- Header section end-->
+
+
+        <!-- === Fancy 10 results === -->
+        <div id = "ten-song-list" class="search-result col-md-8 mx-auto py-4">
+            <!-- single result -->
+            <div class="single-result row align-items-center my-3 p-3">
+                <div class="col-md-9">
+                    <h3 id = "song-title-one" class="lyrics-name">Purple Noon</h3>
+                    <p class="author lead">Album: <span id="album-name-one">Album Name </span><br> Artist Name: <span class = "author-name-color" id="author-name-one">Washed Out</span></p>
+                </div>
+                <div class="col-md-3 text-md-right text-center">
+                    <button id = "song-lyrics-one" class="btn btn-success">Get Lyrics</button>
+                </div>
+            </div>
+            <!-- single result -->
+        
+            <!-- single result -->
+            <div class="single-result row align-items-center my-3 p-3">
+                <div class="col-md-9">
+                    <h3 id = "song-title-two" class="lyrics-name">Purple Noon</h3>
+                    <p class="author lead">Album:  <span id="album-name-two">Album Name </span><br> Artist Name: <span class = "author-name-color" id="author-name-two" >Washed Out</span></p>
+                </div>
+                <div class="col-md-3 text-md-right text-center">
+                    <button id = "song-lyrics-two"class="btn btn-success">Get Lyrics</button>
+                </div>
+            </div>
+            <!-- single result -->
+            <!-- single result -->
+            <div class="single-result row align-items-center my-3 p-3">
+                <div class="col-md-9">
+                    <h3 id = "song-title-three" class="lyrics-name">Purple Noon</h3>
+                    <p class="author lead">Album:  <span id="album-name-three">Album Name </span><br> Artist Name: <span class = "author-name-color" id="author-name-three" >Washed Out</span></p>
+                </div>
+                <div class="col-md-3 text-md-right text-center">
+                    <button id = "song-lyrics-three"class="btn btn-success">Get Lyrics</button>
+                </div>
+            </div>
+            <!-- single result -->
+            <!-- single result -->
+            <div class="single-result row align-items-center my-3 p-3">
+                <div class="col-md-9">
+                    <h3 id = "song-title-four" class="lyrics-name">Purple Noon</h3>
+                    <p class="author lead">Album:  <span id="album-name-four">Album Name </span><br> Artist Name: <span class = "author-name-color" id="author-name-four">Washed Out</span></p>
+                </div>
+                <div class="col-md-3 text-md-right text-center">
+                    <button id = "song-lyrics-four"class="btn btn-success">Get Lyrics</button>
+                </div>
+            </div>
+            <!-- single result -->
+            <!-- single result -->
+            <div class="single-result row align-items-center my-3 p-3">
+                <div class="col-md-9">
+                    <h3 id = "song-title-five" class="lyrics-name">Purple Noon</h3>
+                    <p class="author lead">Album:  <span id="album-name-five">Album Name </span><br> Artist Name: <span class = "author-name-color" id="author-name-five">Washed Out</span></p>
+                </div>
+                <div class="col-md-3 text-md-right text-center">
+                    <button id = "song-lyrics-five"class="btn btn-success">Get Lyrics</button>
+                </div>
+            </div>
+            <!-- single result -->
+
+
+            <!-- single result -->
+            <div class="single-result row align-items-center my-3 p-3">
+                <div class="col-md-9">
+                    <h3 id = "song-title-six" class="lyrics-name">Purple Noon</h3>
+                    <p class="author lead">Album:  <span id="album-name-six">Album Name </span><br> Artist Name: <span class = "author-name-color" id="author-name-six">Washed Out</span></p>
+                </div>
+                <div class="col-md-3 text-md-right text-center">
+                    <button id = "song-lyrics-six"class="btn btn-success">Get Lyrics</button>
+                </div>
+            </div>
+            <!-- single result -->
+            <!-- single result -->
+            <div class="single-result row align-items-center my-3 p-3">
+                <div class="col-md-9">
+                    <h3 id = "song-title-seven" class="lyrics-name">Purple Noon</h3>
+                    <p class="author lead">Album:  <span id="album-name-seven">Album Name </span><br> Artist Name: <span class = "author-name-color" id="author-name-seven">Washed Out</span></p>
+                </div>
+                <div class="col-md-3 text-md-right text-center">
+                    <button id = "song-lyrics-seven"class="btn btn-success">Get Lyrics</button>
+                </div>
+            </div>
+            <!-- single result -->
+            <!-- single result -->
+            <div class="single-result row align-items-center my-3 p-3">
+                <div class="col-md-9">
+                    <h3 id = "song-title-eight" class="lyrics-name">Purple Noon</h3>
+                    <p class="author lead">Album:  <span id="album-name-eight">Album Name </span><br> Artist Name: <span class = "author-name-color" id="author-name-eight">Washed Out</span></p>
+                </div>
+                <div class="col-md-3 text-md-right text-center">
+                    <button id = "song-lyrics-eight"class="btn btn-success">Get Lyrics</button>
+                </div>
+            </div>
+            <!-- single result -->
+            <!-- single result -->
+            <div class="single-result row align-items-center my-3 p-3">
+                <div class="col-md-9">
+                    <h3 id = "song-title-nine" class="lyrics-name">Purple Noon</h3>
+                    <p class="author lead">Album:  <span id="album-name-nine">Album Name </span><br> Artist Name: <span class = "author-name-color" id="author-name-nine">Washed Out</span></p>
+                </div>
+                <div class="col-md-3 text-md-right text-center">
+                    <button id = "song-lyrics-nine"class="btn btn-success">Get Lyrics</button>
+                </div>
+            </div>
+            <!-- single result -->
+            <!-- single result -->
+            <div class="single-result row align-items-center my-3 p-3">
+                <div class="col-md-9">
+                    <h3 id = "song-title-ten" class="lyrics-name">Purple Noon</h3>
+                    <p class="author lead">Album:  <span id="album-name-ten">Album Name </span><br> Artist Name: <span class = "author-name-color" id="author-name-ten">Washed Out</span></p>
+                </div>
+                <div class="col-md-3 text-md-right text-center">
+                    <button id = "song-lyrics-ten"class="btn btn-success">Get Lyrics</button>
+                </div>
+            </div>
+            <!-- single result -->
+        </div>
+
+        <!-- Single Lyrics -->
+        <div id = "lyric-text" class="single-lyrics text-center">
+            <button class="btn go-back">&lsaquo;</button>
+            <h2 class="text-success mb-4"><span id="author-name">Pentatonix </span> - <span id="song-title"> Na Na Na</span></h2>
+            <pre id = "lyrics-full" class="lyric text-white">
+    Wont go whistling like the wind blows,
+    Looking out my window,
+    Just to see the shine
+    Maybe you might call it crazy,
+    How Im acting lately,
+
+    Skipping through the sky
+
+
+
+     I see so clearly,
+
+    Why Im always feeling free.
+
+    So I sleep when my dreams,
+
+    Looking like reality
+
+
+
+    (Gonna feel it! Na na na...) x4
+
+
+
+    Gonna feel it!
+
+
+
+    I know where the greener grass grows
+
+    Youll just have to follow
+
+    To the other side
+
+
+
+     Lets go tiptoe on a tight rope,
+
+    Fallings only natural
+
+    Just spread your wings and fly
+
+
+
+    Youll see so clearly,
+
+    Why Im always feeling free.
+
+    So I sleep when our dreams
+
+    Looking like reality
+
+
+
+    (Gonna feel it! Na na na...) x4
+
+
+
+    Bring it down like
+
+    Ohh way oh
+
+    Yeah yeah yeah yeah yeah yeah
+
+    Break it down like
+
+    Ohh way oh
+
+     Yeah, yeah, yeah...
+
+    All around like
+
+    Ohh way oh
+
+    Yeah, yeah, yeah...
+
+    Sing it loud like!
+
+    Ohh way oh
+
+    Ah oo oo ooo
+
+
+
+     Gonna feel it! (Na na na...)
+
+     Make it sound like! (Na na na...)
+
+    All around like! (Na na na...)
+
+    Sing it loud like! (Na na na...)
+
+    Gonna feel like! (Na na na...)
+                </pre>
+        </main>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- Custom Script Here -->
+    <script src="index.js"></script>
+</body>
+
+</html>
